@@ -1,0 +1,128 @@
+a,
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #6d6d6d;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #6d6d6d;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.navigation-container nav ul {
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+.navigation-container nav ul li {
+		float: right;
+}
+
+.navigation-container nav ul li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding-left: 20px;
+	margin-top: 2px;
+	color: #222;
+}
+
+.avatar,
+.options,
+.notifications {
+	height: 20px;
+	width: 20px;
+	background: #222;
+	margin-left: 20px;
+}
+
+.main-container img {
+	height: 80px;
+	width: auto;
+	margin: auto;
+	display: block;
+	margin-top: 150px;
+}
+
+.main-container form {
+	text-align: center;
+}
+
+.main-container form .searchbar {
+	margin-top: 20px;
+	width: 480px;
+	height: 30px;
+}
+
+.main-container form .button {
+	margin-top: 30px;
+	width: 120px;
+	height: 40px;
+}
+
+.main-container p {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.main-container a {
+	text-decoration: none;
+	color: #1a1ac5;
+	margin-left: 4px;
+}
+
+.footer-container {
+	margin-top: 210px;
+	background: #f2f2f2;
+}
+
+.footer-container .language-info {
+	background: #f2f2f2;
+	border: 1px solid #999;
+}
+
+.footer-container .language-info h2 {
+	padding-left: 38px;
+	font-weight: 200;
+}
+
+.footer-container footer {
+	background: #f2f2f2;
+}
+
+.footer-container footer ul {
+	list-style: none;
+	position: absolute;
+}
+
+.footer-container footer ul li {
+	float: left;
+	padding-right: 20px;
+
+}
+
+.footer-container footer .legal {
+	float: right;
+	right: 20px;
+}
+
+.footer-container footer div {
+	background: #f2f2f2;
+}
+
+/* Clearfix */
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
